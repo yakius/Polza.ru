@@ -4,7 +4,6 @@ from config import *
 
 
 bot = telebot.TeleBot(TOKEN)
-MANAGER_CHAT_ID = 'YOUR_MANAGER_CHAT_ID'
 
 # 1.1.1 Приветствие
 @bot.message_handler(commands=['start'])
